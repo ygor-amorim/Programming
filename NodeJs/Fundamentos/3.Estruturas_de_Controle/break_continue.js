@@ -1,6 +1,15 @@
-for (let = 1; i <= 5; 1++){
+// break
+for (let i = 1; i <= 5; i++){
+  if (i === 3) {
+    break;
+  }
   console.log(i);
 }
-for (let = 1; i <= 5; 1++){
+
+// continue
+for (i = 1; i <= 5; i++){
+  if (i === 3) {
+    continue;
+  }
   console.log(i);
 }
