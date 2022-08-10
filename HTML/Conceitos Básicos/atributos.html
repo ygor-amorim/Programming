@@ -1,0 +1,39 @@
+Atributos contem informaçao extra sobre um elemento, mas que
+voce nao deseja que apareça no conteudo. o atributo class permite
+que voce de ao elemento um nome de identificaçao, que pode ser mais
+tarde usada para direcionar informaçao de estilo ao elemento e outras
+coisas.
+
+Um atributo deve conter:
+
+1. Um espaço entre ele e o nome do elemento (ou o atributo anterior,
+caso o elemento ja contenha um ou mais atributos.)
+
+2. O nome do atributo, seguido por um sinal de igual.
+
+3. O valor de um atributo, com aspas de abertura e fechamento em
+volta dele.
+
+Exemplo:
+
+Utilizando o elemento <a>, que server para criaçao de hyperlinks, e atribuir
+os atributos, href e title, que servem, respectivamente, para linkar o texto
+e gerar uma tooltip quando se passa o mouse sobre o link 
+
+
+<p>Esse é um link que vai para meu perfil no <a
+href="https://twitter.com/ygwr_" title="ygwr no Twitter">
+Twitter</a>. </p>
+
+
+Atributos booleanos
+
+Há atributos escritos sem valores, isso é permitido nos atributos booleanos, 
+podem ter somente um valor, que é geralmente o nome do atributo. Por ex, o atributo
+disabled permite atribuir para os elementos de entrada de formulários, se desejar que estes
+sejam desativados(acinzentados) para que o usuario nao possa inserir nenhum dado neles.
+<!-- O usuario pode inserir o texto na caixa de entrada a seguir-->
+<p><input type="text"> </p>
+
+<!-- O atributo disabled impede que o usuario final insira texto na caixa de entrada-->
+<p><input type="text" disabled></p>

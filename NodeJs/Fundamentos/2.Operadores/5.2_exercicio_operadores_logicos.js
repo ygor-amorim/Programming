@@ -5,7 +5,7 @@ let verdadeira1 = 50 / 2 == 25 && 2 * 25 == 50,
 console.log()
 console.log(verdadeira1);
 console.log(verdadeira2);
-    
+
 
 // Duas expressões resultar em FALSE (Aritmeticos/Relacionais/Logico)
 
@@ -15,4 +15,3 @@ let falso1 = 42 !== 42 && 3 > 2,
 console.log()
 console.log(falso1);
 console.log(falso2);
-    
