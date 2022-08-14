@@ -1,0 +1,34 @@
+// Indice  =   0   1   2   3    4    5
+const notas = [5, 10, 9, 8.6, 6.6, 7.5];
+
+console.log(notas);
+
+console.log(notas[4]);
+
+// quero alterar o dado de indice 4
+
+notas[4] = 7.6;
+
+console.log(notas[4]);
+console.log(notas)
+
+// criando array vazio
+
+const nomes = [];
+
+// adicionando itens em arrays
+
+nomes[0] = "Ana"; 
+nomes[1] = "Bia"; 
+nomes[2] = "Carlos"; 
+nomes[3] = "Diogo"; 
+nomes[4] = "Erica"; 
+nomes[9] = "Flavio"; 
+
+// segunda forma de adicionar
+
+const numeros = [1, 2, 3];
+console.log(numeros);
+console.log(numeros.length);
+
+numeros.push()
