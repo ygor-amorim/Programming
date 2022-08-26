@@ -1,3 +1,6 @@
+/* eslint-disable guard-for-in */
+/* eslint-disable no-plusplus */
+/* eslint-disable no-restricted-syntax */
 // primeira forma
 
 const numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9];
