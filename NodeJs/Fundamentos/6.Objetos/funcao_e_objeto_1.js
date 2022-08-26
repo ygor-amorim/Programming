@@ -21,7 +21,7 @@ const d2 = {
 
 const d3 = {
   dia: 28,
-  mes: 02,
+  mes: 2,
   ano: 2015,
   exibir: function () {
     return [this.dia, this.mes, this.ano].join('/')
