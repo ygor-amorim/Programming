@@ -13,11 +13,11 @@ console.log(8 % 3);
 
 // usando variáveis
 
-let a = 5
-let b = 14
+const a = 5;
+const b = 14;
 
-console.log(a + b)
-console.log(a - b)
-console.log(a * b)
-console.log(a / b)
-console.log(a % b)
+console.log(a + b);
+console.log(a - b);
+console.log(a * b);
+console.log(a / b);
+console.log(a % b);

@@ -1,12 +1,12 @@
-/*  
+/*
         Operadores
     Binarios:
     Funcionam em dois operandos
-    3 + 4 
+    3 + 4
     7 - b
-    
+
     Unarios:
-    Funcionam sob um unico operando 
+    Funcionam sob um unico operando
     a++
 
     Ternários:
@@ -15,6 +15,6 @@
 
 */
 
-let a = 5
+let a = 5;
 
-console.log(a++)
+console.log(a++);

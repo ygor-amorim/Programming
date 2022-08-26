@@ -1,7 +1,3 @@
 function executar(funcao, n1, n2) {
   funcao(n1, n2);
 }
-
-
-
-

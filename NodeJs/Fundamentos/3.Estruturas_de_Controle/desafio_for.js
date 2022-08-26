@@ -5,10 +5,8 @@
 // ####
 // #####
 // ######
-// 
-
+//
 
 for (let linha = '#'; linha !== '#######'; linha += '#') {
-  console.log(linha)
+  console.log(linha);
 }
-

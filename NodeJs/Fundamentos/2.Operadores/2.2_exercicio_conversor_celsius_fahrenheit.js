@@ -1,7 +1,7 @@
 /* Converter um valor de fahrenheit para celsius */
 
-let f = 90;
+const f = 90;
 
-let c = ((f-32)/9)*5;
+const c = ((f - 32) / 9) * 5;
 
-console.log(Math.round(c))
+console.log(Math.round(c));

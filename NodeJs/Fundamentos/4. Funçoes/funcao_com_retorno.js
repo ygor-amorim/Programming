@@ -4,4 +4,4 @@ function sempreRetornaUm() {
 
 a = sempreRetornaUm();
 
-console.log(a)
+console.log(a);

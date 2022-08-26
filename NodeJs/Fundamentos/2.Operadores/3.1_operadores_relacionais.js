@@ -12,14 +12,14 @@ console.log(7 > 6);
 console.log(7 >= 7);
 console.log(3 < 2);
 console.log(3 <= 5);
-console.log(6 == 6);
-console.log(6 != 7);
-console.log()
+console.log(6 === 6);
+console.log(6 !== 7);
+console.log();
 
 // Valores com variável
 
-let a = 5
-let b = 7
+let a = 5;
+let b = 7;
 
 console.log(a > b);
 console.log(a >= b);
@@ -27,17 +27,15 @@ console.log(a < b);
 console.log(a <= b);
 console.log(a == b);
 console.log(a != b);
-console.log()
-
+console.log();
 
 // Comparação entre tipos diferentes e tipos iguais
 
-a = 1
-b = "1"
+a = 1;
+b = '1';
 
 console.log(a == b);
 console.log(a === b); // a é estritamente igual a b?
 
 console.log(a != b);
-console.log(a !== b); // a é estritamente diferente de b? 
-
+console.log(a !== b); // a é estritamente diferente de b?

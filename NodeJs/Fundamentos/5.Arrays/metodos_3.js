@@ -1,12 +1,11 @@
-const numeros = ["A", "B", "C", "D", "E", "F"];
+const numeros = ['A', 'B', 'C', 'D', 'E', 'F'];
 
 function praCadaElemento(elemento, indice, array) {
-  console.log(elemento, indice, array)
+  console.log(elemento, indice, array);
 }
 
 numeros.forEach(praCadaElemento);
 
-
-numeros.forEach(function (elemento) {
+numeros.forEach((elemento) => {
   console.log(elemento);
 });
